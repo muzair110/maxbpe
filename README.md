@@ -31,7 +31,7 @@ Make sure you have [Go](https://go.dev/doc/install) installed (version 1.18+ rec
 
 To train and run the tokenizer on a custom string with detailed logging, use the following command:
 ```bash
-go run main.go -verbose -text "hello world!!!? (안녕하세요!) lol123 😉" -vocab 260
+go run main.go -verbose -text "hello world!!!? (안녕하세요!) lol123 😉"
 ```
 
 ### Available Flags
