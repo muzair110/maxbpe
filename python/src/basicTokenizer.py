@@ -61,7 +61,8 @@ class basicTokenizer():
             
             if verbose:
                 print(f"\nNew token minted for tokens {most_frequent_pair}")
-            
+                print(f"After minting tokens, we get : {tokens}")    
+
             # Update lookups
             self.merges = self.merges | newMerge
             self.vocab[self.startTokenID] = self.vocab[most_frequent_pair[0]] + self.vocab[most_frequent_pair[1]]
