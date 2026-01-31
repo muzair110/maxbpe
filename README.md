@@ -1,4 +1,4 @@
-# MaxBPE: A Go Implementation of Byte Pair Encoding
+# MaxBPE: A Python & Go Implementation of Byte Pair Encoding
 
 Welcome to **MaxBPE**, a minimal yet robust implementation of the Byte Pair Encoding (BPE) algorithm written in Go. This project is a tribute to the logic used by modern LLMs (like GPT-4) to turn raw text into digestible tokens.
 
